@@ -1,0 +1,15 @@
+.color {
+  background-color: #000000;
+}
+.background-image {
+  background-image: url(photos/path56.png);
+  background-repeat: no-repeat;
+}
+.font-style {
+  font-family: "Berkshire Swash";
+  font-size: 60px;
+  color: orange;
+}
+.bg-color {
+  background-color: #151515;
+}
