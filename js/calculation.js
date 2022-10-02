@@ -1,6 +1,7 @@
+// Player Calculation
 document.getElementById("calculate-btn").addEventListener("click", function () {
     const playerInputField = document.getElementById("player-budget").value;
-    const playerCost = playerInputField * liArray;
+    const playerCost = playerInputField * 5;
     const playerTotalCost = document.getElementById("player-expenses");
     playerTotalCost.innerText =playerCost;
     if(isNaN(playerInputField)){
@@ -8,7 +9,7 @@ document.getElementById("calculate-btn").addEventListener("click", function () {
         alert('please enter number');
     }
     
-
+// Manager and Coach Calculation
 
     document.getElementById("total-expenses").addEventListener("click", function () {
         const managerFeeString = document.getElementById("manager-budget").value;
