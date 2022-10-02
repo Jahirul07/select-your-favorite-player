@@ -1,8 +1,13 @@
 document.getElementById("calculate-btn").addEventListener("click", function () {
     const playerInputField = document.getElementById("player-budget").value;
-    const playerCost = playerInputField * 5;
+    const playerCost = playerInputField * liArray;
     const playerTotalCost = document.getElementById("player-expenses");
     playerTotalCost.innerText =playerCost;
+    if(isNaN(playerInputField)){
+        playerTotalCost.innerText = 0;
+        alert('please enter number');
+    }
+    
 
 
     document.getElementById("total-expenses").addEventListener("click", function () {
